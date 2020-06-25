@@ -57,7 +57,7 @@ html_context = {
     "github_user": "shawnlinxl",
     "github_repo": "sphinx-wiki",
     "github_version": "master",
-    "doc_path": "docs",
+    "doc_path": "docs/source",
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
