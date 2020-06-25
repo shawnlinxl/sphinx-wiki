@@ -29,7 +29,7 @@ author = "Shawn Lin"
 # ones.
 extensions = ["recommonmark"]
 
-source_suffix = ['.rst', '.md']
+source_suffix = [".rst", ".md"]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates"]
@@ -46,6 +46,11 @@ exclude_patterns = []
 # a list of builtin themes.
 
 html_theme = "pydata_sphinx_theme"
+html_logo = "_static/logo.png"
+
+html_theme_options = {
+    "github_url": "https://github.com/shawnlinxl/sphinx-wiki",
+}
 
 html_context = {
     "github_user": "shawnlinxl",
