@@ -45,14 +45,6 @@ exclude_patterns = []
 #
 html_theme = "pydata-sphinx-theme"
 
-html_context = {
-    "github_user": "shawnlinxl",
-    "github_repo": "sphinx-wiki",
-    "github_version": "master",
-    "doc_path": "docs",
-}
-
-
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
