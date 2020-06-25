@@ -7,7 +7,7 @@ verify_ssl = true
 
 [packages]
 sphinx = "*"
-pydata-sphinx-theme = "*"
+pydata-sphinx-theme = {git = "https://github.com/shawnlinxl/pydata-sphinx-theme.git", ref = "master"}
 recommonmark = "*"
 
 [requires]
